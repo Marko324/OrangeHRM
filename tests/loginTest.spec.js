@@ -8,4 +8,3 @@ test('the login to OrangeHRM', async ({page}) => {
    const header = await page.locator('h6')
    await expect(header).toHaveText('Dashboard')
 })
-
